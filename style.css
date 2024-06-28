@@ -1,0 +1,88 @@
+* {
+  background-color: #f4f4f4d3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: block;
+  margin: 15px 0;
+  padding: 8px;
+  width: 50vw;
+  background: #007bffb6;
+  color: white;
+  border: transparent;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button:hover {
+  background: #b3006248;
+}
+
+#btnThemSo {
+  width: 150px;
+  background-color: black;
+  margin-left: 110px;
+}
+
+#themSo {
+  margin-left: 70px;
+  text-align: center;
+  width: 230px;
+  background-color: azure;
+  border: 1;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.hienThiMang {
+  margin: 0 30px;
+  border-radius: 3px;
+  width: auto;
+  padding: 10px 0 10px 20px;
+  background: rgba(0, 255, 255, 0.453);
+}
+
+.all input {
+  width: 200px;
+  background-color: azure;
+  border: 1;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.all span {
+  padding: 2px 30px;
+  border-radius: 5px;
+  display: block;
+  background-color: rgba(0, 255, 255, 0.338);
+  height: 30px;
+}
+
+.all #btnDemSo {
+  width: 150px;
+  background-color: black;
+  margin-left: 50px;
+}
+
+.fa-heart {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: red;
+}
